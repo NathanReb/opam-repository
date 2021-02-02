@@ -19,11 +19,10 @@ synopsis: "Some dummy package"
 description: """
 Test package please ignore
 """
-x-commit-hash: "cad1412a4ab044021fa91a198880cc005a69223f"
 authors: "Nathan Rebours <nathan.p.rebours@gmail.com>"
 url {
   src:
-    "https://github.com/NathanReb/dune-release-testing/releases/download/untagged-c16c1dc0cf105bf77476/dummy-v0.2.1.test.tbz"
+    "https://github.com/NathanReb/dune-release-testing/releases/download/v0.2.1%2Btest/dummy-v0.2.1.test.tbz"
   checksum: [
     "sha256=42a4c120b5decd9ee4781b8b2701e245f90c2deb4a0ea6d23550b81b0ed88793"
     "sha512=454194e8801fcd7c3a4ec120ab8dcf6d4d853301cf6a71eaaf0d312696a21fe1ca4857c3d6996f5bdd1c91509f841636463b6423688f0ec89560251dbf6cfa9c"
