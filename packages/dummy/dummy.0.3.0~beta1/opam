@@ -1,0 +1,31 @@
+opam-version: "2.0"
+maintainer: "Nathan Rebours <nathan.p.rebours@gmail.com>"
+homepage: "me.com/dummy.html"
+bug-reports: "https://github.com/NathanReb/dune-release-testing/issues"
+license: "BSD-2"
+dev-repo: "git+https://github.com/NathanReb/dune-release-testing.git"
+doc: "https://nathanreb.github.io/dune-release-testing"
+build: [
+  [ "dune" "build" "-p" name "-j" jobs ]
+]
+run-test: [
+  [ "dune" "runtest" "-p" name "-j" jobs ]
+]
+depends: [
+  "dune" {build}
+  "ocaml" {>= "4.04.2"}
+]
+synopsis: "Some dummy package"
+description: """
+Test package please ignore
+"""
+x-commit-hash: "4adf539d5c81ae80a30633f37582d5ed6f49a713"
+authors: "Nathan Rebours <nathan.p.rebours@gmail.com>"
+url {
+  src:
+    "https://github.com/NathanReb/dune-release-testing/releases/download/v0.3.0_TILDE_beta1/dummy-v0.3.0.beta1.tbz"
+  checksum: [
+    "sha256=ec974ca30dc2b79641159546a172151c293df13d187a3c10b2f21facb4459b15"
+    "sha512=8935fbe1658592390968531978df095b5f5f9774ea96969c8249a0155cde10727048905a0e65686bd7ea355f036058ab802b9fe79f03e8411d4f2f56d672a4dc"
+  ]
+}
